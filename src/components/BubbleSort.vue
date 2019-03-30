@@ -4,7 +4,7 @@
             <div class="card-header">
                 <div class="row">
                     <div class="col-6">
-                        <h2 class="m-0">Bubble sort</h2>
+                        <h2 class="m-0">#1 - Bubble sort</h2>
                     </div>
                     <div class="col-6 text-right">
                         <button class="btn btn-outline-dark mr-2" @click="initialize" v-show="!sorting">
@@ -53,9 +53,12 @@
         created() {
             this.initialize();
         },
-        updated() {
-            if (this.saved.size !== this.size) {
+        watch: {
+            size() {
                 this.initialize();
+            },
+            speed() {
+                this.initialize()
             }
         },
         methods: {

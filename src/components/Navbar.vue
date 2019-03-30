@@ -13,9 +13,11 @@
                     <router-link to="/" class="nav-item">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </router-link>
-                    <router-link to="/about" class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </router-link>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Mvtthew/visualizing-sorting" target="_blank">
+                            <i class='bx bxl-github'></i> Mvtthew
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
