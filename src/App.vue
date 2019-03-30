@@ -7,9 +7,6 @@
     </div>
 </template>
 
-<style lang="scss">
-
-</style>
 <script>
     import Navbar from "./components/Navbar";
 
@@ -17,3 +14,31 @@
         components: {Navbar}
     }
 </script>
+
+<style lang="scss">
+    .card-body{
+        font-weight: 600;
+        font-size: 1.3rem;
+        transition: 1s all;
+        color: darkred;
+    }
+    .chart-box{
+        position: relative;
+        width: 100%;
+
+        .chart{
+            width: 100%;
+            height: 300px;
+            margin-top: auto;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: end;
+
+            .stick {
+                margin-top: auto;
+                display: inline-block;
+                background-color: darkred;
+            }
+        }
+    }
+</style>
