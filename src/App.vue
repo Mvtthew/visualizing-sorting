@@ -16,12 +16,6 @@
 </script>
 
 <style lang="scss">
-    .card-body{
-        font-weight: 600;
-        font-size: 1.3rem;
-        transition: 1s all;
-        color: darkred;
-    }
     .chart-box{
         position: relative;
         width: 100%;
@@ -37,7 +31,7 @@
             .stick {
                 margin-top: auto;
                 display: inline-block;
-                background-color: darkred;
+                background-color: black;
             }
         }
     }
